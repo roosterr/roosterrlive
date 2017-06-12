@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin_small"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_group_image_free"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/button_free"
+            android:theme="@style/AppTheme.ColoredButton"
+            android:text="@string/select_free_label"
+            android:layout_marginBottom="@dimen/activity_margin_small"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_group_image_premium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_margin_small">
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/button_premium"
+            android:theme="@style/AppTheme.ColoredButton"
+            android:layout_marginBottom="@dimen/activity_margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upgrade_to_pro_label"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerGrey"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_margin_small"
+                android:text="@string/or_label"
+                android:background="@color/backgroundWhite"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button_browse"
+            android:theme="@style/AppTheme.ColoredButton"
+            android:layout_marginBottom="@dimen/activity_margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/browse_label"/>
+    </LinearLayout>

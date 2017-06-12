@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_remind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.roosterr.RemindActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_margin="@dimen/list_item_small_icon_padding"
+            app:srcCompat="@drawable/ic_wordmark" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/remind_trigger_icon"
+                android:layout_width="16sp"
+                android:layout_height="16sp"
+                android:layout_marginRight="@dimen/activity_margin_small"
+                app:srcCompat="@drawable/ic_call_white_24dp" />
+
+            <TextView
+                android:id="@+id/remind_trigger_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textSize="16sp"
+                tools:text="Reminder Type" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/remind_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_margin_small"
+            android:text="8:00 AM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="?android:attr/textColorPrimaryInverse"
+            android:textSize="48sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_calling_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_small"
+            android:gravity="center_vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="16sp"
+                android:layout_height="16sp"
+                android:layout_marginRight="@dimen/activity_margin_small"
+                app:srcCompat="@drawable/ic_call_white_24dp" />
+
+            <TextView
+                android:id="@+id/calling_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+888444444"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_margin_small"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/list_item_image"
+                    android:layout_height="@dimen/list_item_image"
+                    android:background="@color/dividerGrey"
+                    android:id="@+id/image_group"
+                    android:layout_margin="8dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title_group"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Wife"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_margin_small"
+                android:textColor="?android:attr/textColorPrimary"
+                android:text="+"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="@dimen/list_item_image"
+                    android:layout_height="@dimen/list_item_image"
+                    app:srcCompat="@drawable/ic_birthday"
+                    android:id="@+id/image_type"
+                    android:layout_margin="8dp" />
+                <TextView
+                    android:id="@+id/title_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Birthday"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/reminder_message_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_margin_small"
+                android:text="@string/reminder_text_demo" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_single_option_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/alarm_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:backgroundTint="@color/colorAlert"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_alarm_off" />
+
+        <TextView
+            android:layout_margin="@dimen/list_item_small_icon_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:text="@string/dismiss_label"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_two_options_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <LinearLayout
+                android:id="@+id/wrapper_call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/call_now_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorSecondAccent"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/ic_call_white_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/list_item_small_icon_padding"
+                    android:text="@string/call_label"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wrapper_dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_toRightOf="@id/wrapper_call"
+                android:paddingLeft="60dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/dismiss_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorAlert"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/ic_call_end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/list_item_small_icon_padding"
+                    android:text="@string/dismiss_label"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

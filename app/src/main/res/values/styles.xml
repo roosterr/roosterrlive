@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="dgts__accentColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AlertDialog.Time" parent="android:Theme.Holo.Light.Dialog">
+
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AlertDialogButtonless" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonBarButtonStyle">@style/AppTheme.NoButtonBar</item>
+    </style>
+
+    <style name="AppTheme.AlertDialogFullscreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoButtonBar">
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="AppTheme.ColoredButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">@color/colorSecondAccent</item>
+        <item name="colorButtonNormal">@color/colorSecondAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ColoredAccentButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ColoredButtonThird" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">@color/colorThirdAccent</item>
+        <item name="colorButtonNormal">@color/colorThirdAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="reminder_text">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="rv_header">
+        <item name="android:layout_margin">@dimen/activity_margin_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

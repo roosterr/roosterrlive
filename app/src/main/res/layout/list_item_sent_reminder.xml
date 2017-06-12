@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/list_item_margin_small"
+    android:background="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/reminder_group_image_view"
+            android:orientation="vertical"
+            android:padding="@dimen/list_item_small_icon_padding"
+            android:layout_marginRight="@dimen/activity_margin_small"
+            android:gravity="center_horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/reminder_group_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="centerCrop"
+                android:background="@color/backgroundGrey"  />
+            <TextView
+                android:id="@+id/sent_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textSize="8sp"
+                android:maxWidth="48dp"
+                android:gravity="center_horizontal"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/reminder_group_image_view"
+            android:layout_toLeftOf="@+id/reminder_image"
+            android:id="@+id/reminder_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textColor="?android:attr/textColorTertiary"
+            android:maxLines="3"
+            android:paddingTop="@dimen/list_item_small_padding"
+            android:paddingBottom="@dimen/list_item_big_padding"
+            tools:text="Test"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder_image"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/list_item_small_icon_padding">
+            <ImageView
+                android:id="@+id/reminder_type_image"
+                android:layout_width="@dimen/list_item_icon"
+                android:layout_height="@dimen/list_item_icon"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_anniversary" />
+            <TextView
+                android:id="@+id/reminder_type_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="48dp"
+                android:text="Anniversary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textSize="8sp"
+                android:textColor="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/list_item_small_icon_padding"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/list_item_small_icon_padding"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/reminder_trigger_image"
+                android:layout_width="wrap_content"
+                android:paddingRight="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_alarms_16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/reminder_trigger_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm"
+                android:maxLines="2"
+                android:maxWidth="70dp"
+                style="@style/reminder_text"
+                android:textColor="?android:attr/textColorSecondary"
+                android:minWidth="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_item_small_icon_padding"
+                android:paddingRight="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_event_16dp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:maxLines="2"
+                android:maxWidth="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/reminder_text"
+                tools:text="16-NOV-2016" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_item_small_icon_padding"
+                android:paddingRight="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_time_16dp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:maxLines="2"
+                android:maxWidth="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/reminder_text"
+                tools:text="11:11 PM" />
+
+            <ImageButton
+                android:id="@+id/button_reminder_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_margin_small"
+                android:background="@color/backgroundWhite"
+                app:srcCompat="@drawable/ic_delete_16dp"  />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

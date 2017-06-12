@@ -1,0 +1,459 @@
+<resources>
+    <string name="app_name">roosterr</string>
+
+    <string name="navigation_drawer_open">Abrir menú lateral</string>
+    <string name="navigation_drawer_close">Cerrar menú lateral</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="good_morning">¡Hola!</string>
+    <string name="send_to">Compartir con un amigo</string>
+    <string name="group_name">Nombre del grupo</string>
+    <string name="share_title">Compartir con un amigo</string>
+    <string name="title_activity_edit">Editar recordatorios</string>
+    <string name="title_activity_file">Buscar imagen</string>
+    <string name="save">Guardar</string>
+    <string name="day">Recordatorios programados</string>
+    <string name="title_activity_group_image">Seleccionar imagen</string>
+    <string name="type_contact_name_or_phone_number">Introduce un contacto o teléfono</string>
+    <string name="tip_this_group_has_no_members">CONSEJO: No hay miembros en este grupo</string>
+    <string name="tip_tap_to_delete">Consejo: Selecciona el nombre del contacto para eliminarlo</string>
+    <string name="allow_contacts">Permitir acceder a los contactos para añadir miembros nuevos</string>
+    <string name="title_activity_about">Quiénes somos</string>
+    <string name="about_quote">\"Detrás de todo hombre de éxito \n se esconde una estupenda app de recordatorios\"</string>
+    <string name="about_message">A las personas que tienen problemas de \nmemoria, les envío recordatorios a través de</string>
+    <string name="about_header_1">Una app sencilla, intuitiva y práctica</string>
+    <string name="about_header_2">para</string>
+    <string name="about_header_3">crear listas de tareas y recordatorios</string>
+    <string name="about_version_code">Versión 2.0</string>
+    <string name="about_help_faqs"><![CDATA[Ayuda y Preguntas frecuentes]]></string>
+
+    <string-array name="type">
+        <item>@string/days_label</item>
+        <item>@string/weeks_label</item>
+        <item>@string/months_label</item>
+        <item>@string/years_label</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_upgrade">Funciones Premium</string>
+    <string name="title_activity_feedback">Enviar comentario</string>
+    <string name="dialog_rate">Si te parece útil nuestra app, déjanos una valoración en la Play Store</string>
+    <string name="title_activity_reminder_set">Recordatorio guardado</string>
+    <string name="title_activity_falcon">Actividad halcón</string>
+    <string name="section_format">Hola, mundo, desde la sección: %1$d</string>
+    <string name="activity_title_create">Crear recordatorio</string>
+    <string name="upgrade_prompt">Visualiza todos tus recordatorios futuros en una línea del tiempo. Es una función muy útil. \n \nPara poder utilizar la Vista de halcón, pásate a la versión PRO.</string>
+    <string name="dialog_alarm_title">Seleccionar tono de alarma</string>
+    <string name="done">Hecho</string>
+    <string name="close">Cerrar</string>
+    <string name="title_activity_check_list">Añadir lista al SMS</string>
+    <string name="dialog_new_list_hint">Introduce el nombre de la lista nueva</string>
+    <string name="type_sms_message_text">Introduce el texto del mensaje SMS</string>
+    <string name="title_activity_backup">Copia de seguridad / Restaurar</string>
+    <string name="title_activity_sent_reminders">Recordatorios enviados</string>
+    <string name="delete_all">Eliminar todo</string>
+    <string name="no_reminders_sent_yet">No se han enviado recordatorios.</string>
+    <string name="delete_all_sent_reminders">¿Eliminar todos los recordatorios enviados?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="nothing_to_delete">No hay nada que eliminar</string>
+    <string name="delete_group">Eliminar grupo y sus recordatorios?</string>
+    <string name="delete">Eliminar</string>
+    <string name="group_delete_success">El grupo se ha eliminado correctamente.</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="content_description_app_loading_image">La app está cargando la imagen</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña (opcional)</string>
+    <string name="action_sign_in">Inicia sesión o regístrate</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="error_invalid_email">La dirección de correo electrónico no es válida</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">La contraseña no es correcta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="advertisement">Anuncio</string>
+    <string name="appinstall_imagedescription">Captura de pantalla</string>
+    <string name="permission_rationale">Se requiere otorgar permiso a los contactos para enviar correos electrónicos.</string>
+    <string name="reminder_text_demo">Recuerda encargar una tarta para el cumpleaños de tu mujer</string>
+    <string name="backup_upgrade_text">Realiza una copia de seguridad y restaura tus recordatorios. \n \nPara poder utilizar la función Copia de seguridad y restaurar, pásate a la versión PRO.</string>
+    <string name="authentication_success">Autentificación correcta para </string>
+    <string name="design_label">Diseñada con</string>
+    <string name="in_label">en</string>
+    <string name="country_label">Florida, EE.UU.</string>
+    <string name="loading_label">Cargando...</string>
+    <string name="eve_label">Hola</string>
+    <string name="aftr_label">Hola</string>
+    <string name="morn_label">Hola</string>
+    <string name="good_label">Buenas </string>
+    <string name="create_label">Crear</string>
+    <string name="purchased_label">ACTIVADO</string>
+    <string name="upgrade_label">ADQUIRIR LA VERSIÓN PRO</string>
+    <string name="ratenow_label">Valorar ahora</string>
+    <string name="group_created_label">Grupo creado </string>
+    <string name="fetch_group_label">Recopilando grupos...</string>
+    <string name="fetch_msg_label">Recopilando mensajes...</string>
+    <string name="fetch_cat_label">Recopilando categorías...</string>
+    <string name="fetch_cat_item_label">Recopilando elementos de la categoría...</string>
+    <string name="market_app_err_label"> error al buscar la app Market </string>
+    <string name="yes_label">Sí</string>
+    <string name="no_label">No</string>
+    <string name="exit_label">¿Seguro que quieres salir?</string>
+    <string name="like_app_label">Indica que te gusta esta app</string>
+    <string name="upgrade_premium_label">¡Pásate a Premium!</string>
+    <string name="no_ads_label">SIN ANUNCIOS</string>
+    <string name="go_pro_label">HAZTE PRO</string>
+    <string name="iab_err_label">Problema al instalar la facturación integrada en la app: </string>
+    <string name="iab_err_err_2">Error al consultar inventario. Hay otra operación de sincronización en progreso.</string>
+    <string name="iab_err_inv">Error al consultar inventario: </string>
+    <string name="iab_err_purchase">Error al comprar. Ha fallado la verificación de la autenticidad.</string>
+    <string name="iab_thank_no_ads">¡Gracias por pasarte a la versión SIN ANUNCIOS!</string>
+    <string name="iab_thank_go_pro">¡Gracias por HACERTE PRO!</string>
+    <string name="iab_thank_both">¡Gracias por adquirir las dos cosas!</string>
+    <string name="err_label">Error:</string>
+    <string name="ok_label">Vale</string>
+    <string name="remove_ads_label">Eliminar anuncios</string>
+    <string name="unlock_falcon_label">Desbloquear Vista de halcón, Imágenes premium y Copia de seguridad/Restaurar</string>
+    <string name="enjoy_label">Disfruta de la experiencia auténtica</string>
+    <string name="or_label">O</string>
+    <string name="unlock_both_label">Eliminar los anuncios + Desbloquear Vista de halcón, Imágenes premium y Copia de seguridad/Restaurar</string>
+    <string name="get_both_label">Adquirir ambas opciones</string>
+    <string name="upgrade_to_pro_label">Hazte PRO</string>
+    <string name="backup_label">Copia de seguridad</string>
+    <string name="restore_label">Restaurar</string>
+    <string name="restore_file_label">El archivo de restauración se debe guardar en la memoria del teléfono</string>
+    <string name="backup_file_label">Copia de seguridad guardada en la carpeta de Descargas. Nombre del archivo: RemindKing.DB</string>
+    <string name="email_backup_label">Enviar copia de seguridad por correo electrónico</string>
+    <string name="backup_alert_label">Selecciona un archivo .DB</string>
+    <string name="backup_restore_success_label">La copia de seguridad se ha restaurado correctamente</string>
+    <string name="checklist_default_name">Lista nueva</string>
+    <string name="no_task_label">No has introducido un título para la tarea.</string>
+    <string name="title_label">Título</string>
+    <string name="edit_add_group_label">Primero debes añadir contactos al grupo</string>
+    <string name="edit_reminder_enabled_label">Recordatorio activado</string>
+    <string name="edit_reminder_disabled_label">Recordatorio desactivado</string>
+    <string name="copy_reminder_label">Copiar recordatorio en el grupo</string>
+    <string name="select_all_label">Seleccionar todo</string>
+    <string name="delete_reminder_label">¿Eliminar recordatorio?</string>
+    <string name="scheduled_reminder_label">Recordatorios programados</string>
+    <string name="active_label">Activos</string>
+    <string name="falcon_view_label">Vista de halcón</string>
+    <string name="all_reminders_label">Todos los recordatorios</string>
+    <string name="meeting_reminders_label">Recordatorios de reunión</string>
+    <string name="todo_reminders_label">Recordatorios de cosas que debo hacer</string>
+    <string name="bill_pay_reminders">Recordatorios de pago de facturas</string>
+    <string name="birthday_reminders_label">Recordatorios de cumpleaños</string>
+    <string name="anniversary_reminders_label">Recordatorios de aniversario</string>
+    <string name="today_label">Hoy</string>
+    <string name="next_7_label">Los próximos 7 días</string>
+    <string name="upcoming_label">Cercanos</string>
+    <string name="all_label">Todos</string>
+    <string name="meeting_label">Reunión</string>
+    <string name="todo_label">Cosas que debo hacer</string>
+    <string name="bill_pay_label">Pago de facturas</string>
+    <string name="birthday_label">Cumpleaños</string>
+    <string name="anniversary_label">Aniversario</string>
+    <string name="feedback_email_label">Comentarios recibidos del usuario</string>
+    <string name="send_feedback_label">Enviar comentario</string>
+    <string name="type_feedback_question_label">Escribe tu comentario</string>
+    <string name="email_label">Introduce tu correo electrónico</string>
+    <string name="alarm_label">Alarma</string>
+    <string name="call_reminder_label">Recordatorio de llamada</string>
+    <string name="tap_reminder_label">Pulsa para abrir RemindKing</string>
+    <string name="reminder_notification_label">No tienes recordatorios para los próximos 7 días. Crea un recordatorio ahora</string>
+    <string name="reminder_prefix_label">Tienes </string>
+    <string name="reminder_append_label"> recordatorios en los próximos 7 días</string>
+    <string name="sms_scheduled_label">SMS programados para su envío</string>
+    <string name="alarm_scheduled_label">La alarma está activada</string>
+    <string name="call_scheduled_label">La llamada está programada</string>
+    <string name="select_free_label">Selección gratuita 0,00 €</string>
+    <string name="item_label">elemento</string>
+    <string name="browse_label">Buscar</string>
+    <string name="premium_image_label">Seleccionar imagen premium</string>
+    <string name="backup_restore_label">Copia de seguridad y restaurar</string>
+    <string name="share_label">Compartir</string>
+    <string name="rate_this_label">Valorar esta app</string>
+    <string name="about_help_label">Quiénes somos y Ayuda</string>
+    <string name="checklist_label">Lista</string>
+    <string name="schedule_date_label">Fecha programada</string>
+    <string name="schedule_time_label">Hora programada</string>
+    <string name="select_date_label">Seleccionar fecha</string>
+    <string name="select_time_label">Seleccionar hora</string>
+    <string name="repitition_label">Repetición</string>
+    <string name="never_repeat_label">No repetir nunca</string>
+    <string name="optional_call_reminder_hint_label">(Opcional) introducir detalles del recordatorio de llamada</string>
+    <string name="alarm_hint_label">En qué consiste la alarma</string>
+    <string name="sms_hint_label">Escribe el texto del mensaje SMS</string>
+    <string name="alarm_tune_label">Tono de alarma</string>
+    <string name="scheduled_sms_text">SMS programado</string>
+    <string name="every_day_label">Todos los días</string>
+    <string name="every_week_label">Todas las semanas</string>
+    <string name="mon_fri_label">De lunes a viernes</string>
+    <string name="sat_sun_label">Sábados y domingos</string>
+    <string name="every_month_label">Todos los meses</string>
+    <string name="every_year_label">Todos los años</string>
+    <string name="custom_label">Personalizado</string>
+    <string name="repeat_every_label">Repetir cada</string>
+    <string name="days_label">día</string>
+    <string name="weeks_label">semana</string>
+    <string name="months_label">mes</string>
+    <string name="years_label">año</string>
+    <string name="no_items_selected_label">No se ha seleccionado ningún elemento.</string>
+    <string name="alarm_clock_label">Reloj despertador</string>
+    <string name="gong_label">Gong</string>
+    <string name="tingsha_label">Tingsha tibetano</string>
+    <string name="sms_label">SMS</string>
+    <string name="call_label">Llamada</string>
+    <string name="base_64_part_initial">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtzNVUUuvoqJUgZCKstZT1IiUvdrgiacNbgIqED2IjyUukVpJSstW+mIoAFPFHQ5kdzyPHbQKtvQHKqeECBS4DZ2pR3d/</string>
+    <string name="base_64_part_last">VnqmPT7k6jzKiTvQHxS83xzyYl8Y5Y38de5xEPnWkWIBYuyoraQJ3h8K4rfmkS4pS+nQALyd07pHdFKBgQUqnHTy8GZphPPL+SIjNoTDexgswe+QqjsEZaCiDdNfOkIGA4RkgNXM/Vat8SzmWp48uQIDAQAB</string>
+    <string name="base_64_part_middle">IIAyFG1/oeqKENNeXHhXjucu6Ykgw70ycyyiegQ+QGpgUO9unZsh6YqDa7yYV1VO46ximhW6SGq46bb16QES0P6cIAHnkR57cXm/</string>
+    <string name="twitter_key">umqVdNp559amgyv5UtJYMQrzk</string>
+    <string name="twitter_secret">yesgvVI9LnbsUsFpImxrvt0AjLMKcQAEV6bmnaapdTJXW4Fz0n</string>
+    <string name="add_items_sms_label">Añadir elementos al SMS</string>
+	<string name="type_new_item_label">Insertar elemento nuevo</string>
+	<string name="no_items_yet_label">No hay elementos</string>
+	<string name="all_message_del_label">Se han borrado todos los mensajes</string>
+	<string name="group_creating_label">Creando grupos</string>
+	<string name="group_del_label">Borrando grupo</string>
+	<string name="message_del_label">Mensaje borrado</string>
+	<string name="dismiss_call_label">Desliza para descartar o llamar</string>
+	<string name="dismiss_label">Descartar</string>
+	<string name="slide_dismiss_label">Desliza para descartar</string>
+    <string name="vibrate_label">Vibrate</string>
+    <string name="reminder_label">Reminders:: Today {0}, Next 7 days {1}</string>
+</resources>

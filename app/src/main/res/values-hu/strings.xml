@@ -1,0 +1,459 @@
+<resources>
+    <string name="app_name">roosterr</string>
+    <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
+    <string name="navigation_drawer_close">Navigációs fiók bezárása</string>
+
+    <string name="action_settings">Beállítások</string>
+    <string name="good_morning">Jó Reggelt!</string>
+    <string name="send_to">Oszd meg egy baráttal</string>
+    <string name="group_name">Csoport Neve</string>
+    <string name="share_title">Oszd meg egy baráttal</string>
+    <string name="title_activity_edit">Emlékeztető Csoport Szerkesztése</string>
+    <string name="title_activity_file">Kép Böngészése</string>
+    <string name="save">Mentés</string>
+    <string name="day">Tervezett Emlékeztetők</string>
+    <string name="title_activity_group_image">Kép Kiválasztása</string>
+    <string name="type_contact_name_or_phone_number">Írd be a nevet vagy a telefonszámot</string>
+    <string name="tip_this_group_has_no_members">TIPP: Ennek a csoportnak nincs tagja</string>
+    <string name="tip_tap_to_delete">Tipp: Bökj a névre a törléshez</string>
+    <string name="allow_contacts">Engedélyezd a hozzáférést a névjegyzékhez, hogy új tagot adj a csoporthoz</string>
+    <string name="title_activity_about">Rólunk</string>
+    <string name="about_quote">\"Minden Sikeres Ember Mögött \n Van Egy Nagyszerű Emlékeztető App\"</string>
+    <string name="about_message">Azoknak, akiknek a memóriájuk \nrosszabb, Emlékeztetem őket egy</string>
+    <string name="about_header_1">Egyszerű, Tiszta és Praktikus App-on keresztül</string>
+    <string name="about_header_2">Feladatok</string>
+    <string name="about_header_3">&amp; Emlékeztetők elvégzésére</string>
+    <string name="about_version_code">2.0 Verzió</string>
+    <string name="about_help_faqs"><![CDATA[Help & FAQs]]></string>
+
+    <string-array name="type">
+        <item>@string/days_label</item>
+        <item>@string/weeks_label</item>
+        <item>@string/months_label</item>
+        <item>@string/years_label</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_upgrade">Prémium Funkciók</string>
+    <string name="title_activity_feedback">Visszajelzés Küldése</string>
+    <string name="dialog_rate">Hogy ha hasznosnak találod az App-ot, értékelj minket a playstore-on</string>
+    <string name="title_activity_reminder_set">Emlékeztető Mentve</string>
+    <string name="title_activity_falcon">FalconActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="activity_title_create">Emlékeztető Létrehozása</string>
+    <string name="upgrade_prompt">Lásd az összes közelgő emlékeztetőd egy idővonalas nézetben. Ez egy nagyon hasznos funkció. \n \nA Falcon View feloldásához válts PRO verzióra.</string>
+    <string name="dialog_alarm_title">Értesítési Hang Kiválasztása</string>
+    <string name="done">Kész</string>
+    <string name="close">Bezárás</string>
+    <string name="title_activity_check_list">Ellenőrzési Lista hozzáadása az SMS-ekhez</string>
+    <string name="dialog_new_list_hint">Új Ellenőrzési Lista Nevének Megadása</string>
+    <string name="type_sms_message_text">SMS szövegének írása</string>
+    <string name="title_activity_backup">Biztonsági Mentés / Visszaállítás</string>
+    <string name="title_activity_sent_reminders">Elküldött Emlékeztetők</string>
+    <string name="delete_all">Összes Törlése</string>
+    <string name="no_reminders_sent_yet">Nincs elküldött emlékeztető.</string>
+    <string name="delete_all_sent_reminders">Összes elküldött emlékeztető törlése?</string>
+    <string name="cancel">Mégsem</string>
+    <string name="nothing_to_delete">Nincs mit kitörölni</string>
+    <string name="delete_group">Csoport és emlékeztetők törlése?</string>
+    <string name="delete">Törlés</string>
+    <string name="group_delete_success">Csoport sikeres törlése.</string>
+    <string name="title_activity_login">Bejelentkezés</string>
+    <string name="content_description_app_loading_image">Kép betöltése folyamatban</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Jelszó (Nem Kötelező)</string>
+    <string name="action_sign_in">Bejelentkezés vagy Regisztráció</string>
+    <string name="action_sign_in_short">Bejelentkezés</string>
+    <string name="error_invalid_email">Az e-mail cím helytelen</string>
+    <string name="error_invalid_password">A jelszó túl rövid</string>
+    <string name="error_incorrect_password">A jelszó hibás</string>
+    <string name="error_field_required">A mező kitöltése kötelező</string>
+    <string name="advertisement">Hírdetés</string>
+    <string name="appinstall_imagedescription">Képernyőfotó</string>
+    <string name="permission_rationale">A névjegyzékhez való hozzáférés kötelező az e-mailek befejezéséhez.</string>
+    <string name="reminder_text_demo">Itt az ideje a feleséged születésnapi tortáját megrendelni</string>
+    <string name="backup_upgrade_text">Emlékeztetők biztonsági mentése és visszaállítása. \n \nA biztonsági mentés és visszaállítás feloldásához válts PRO verzióra.</string>
+    <string name="authentication_success">Sikeres hitelesítés </string>
+    <string name="design_label">Tervezési Hely</string>
+    <string name="in_label">IN</string>
+    <string name="country_label">Florida U.S.</string>
+    <string name="loading_label">Loading&#8230;&#8230;&#8230;</string>
+    <string name="eve_label">Jó Estét</string>
+    <string name="aftr_label">Jó Napot</string>
+    <string name="morn_label">Reggel</string>
+    <string name="good_label">Jó </string>
+    <string name="create_label">Létrehoz</string>
+    <string name="purchased_label">VÁSÁROLT</string>
+    <string name="upgrade_label">FRISSÍTS MOST</string>
+    <string name="ratenow_label">Értékeld most</string>
+    <string name="group_created_label">Csoport Létrehozva </string>
+    <string name="fetch_group_label">Csoportok Keresése&#8230;&#8230;&#8230;</string>
+    <string name="fetch_msg_label">Üzenetek Keresése&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_label">Kategóriák Keresése&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_item_label">Kategóriák Elemek Keresése&#8230;&#8230;&#8230;</string>
+    <string name="market_app_err_label"> Nem található piaci app</string>
+    <string name="yes_label">Igen</string>
+    <string name="no_label">Nem</string>
+    <string name="exit_label">Biztosan kilépsz?</string>
+    <string name="like_app_label">Kedveld az app-ot</string>
+    <string name="upgrade_premium_label">Válts Prémiumra!</string>
+    <string name="no_ads_label">REKLÁMMENTESÍTÉS</string>
+    <string name="go_pro_label">LÉGY PRO</string>
+    <string name="iab_err_label">Probléma a számlázással: </string>
+    <string name="iab_err_err_2">Hiba a leltár lekérdezésekor. Egy másik művelet folyamatban van.</string>
+    <string name="iab_err_inv">Hiba a leltár lekérdezésekor: </string>
+    <string name="iab_err_purchase">Hiba vásárlásnál. Hitelességének ellenőrzése sikertelen.</string>
+    <string name="iab_thank_no_ads">Köszönjük, hogy átváltottál a reklámmentességre!</string>
+    <string name="iab_thank_go_pro">Köszönjük, hogy PRO-ra váltott!</string>
+    <string name="iab_thank_both">Köszönjük, hogy átváltottál Mindkettőre!</string>
+    <string name="err_label">Hiba:</string>
+    <string name="ok_label">OK</string>
+    <string name="remove_ads_label">Hírdetések eltűntetése</string>
+    <string name="unlock_falcon_label">Old fel a Falcon View-t, a prémium képeket és a biztonsági mentése/visszaállítás funkciót</string>
+    <string name="enjoy_label">Élvezd a tiszta élményt</string>
+    <string name="or_label">VAGY</string>
+    <string name="unlock_both_label">Reklámmentesítés.Továbbá, old fel a Falcon View-t, a prémium képeket és a biztonsági mentés/visszaállítás funkciót</string>
+    <string name="get_both_label">Válts Mindkettőre</string>
+    <string name="upgrade_to_pro_label">Válts PRO-ra</string>
+    <string name="backup_label">Biztonsági mentés</string>
+    <string name="restore_label">Visszaállítás</string>
+    <string name="restore_file_label">A visszaállított fájlt a telefon memóriáján kell tárolni</string>
+    <string name="backup_file_label">A Bizontsági mentés mentve a letöltések mappába. Fájl neve : RemindKing.DB</string>
+    <string name="email_backup_label">E-mail biztonsági mentés fájl</string>
+    <string name="backup_alert_label">Kérem válassz egy .DB fájlt</string>
+    <string name="backup_restore_success_label">Biztonsági mentés/visszaállítás sikeres</string>
+    <string name="checklist_default_name">Új Ellenőrzési Lista</string>
+    <string name="no_task_label">A feladatnak nincs címe.</string>
+    <string name="title_label">Cím</string>
+    <string name="edit_add_group_label">Először adj a csoporthoz Névjegyeket</string>
+    <string name="edit_reminder_enabled_label">Emlékeztető Bekapcsolva</string>
+    <string name="edit_reminder_disabled_label">Emlékeztető Kikapcsolva</string>
+    <string name="copy_reminder_label">Emlékeztető másolása a csoportba</string>
+    <string name="select_all_label">Összes Kiválasztása</string>
+    <string name="delete_reminder_label">Emléeztető Törlése?</string>
+    <string name="scheduled_reminder_label">Tervezett Emlékeztetők</string>
+    <string name="active_label">Aktív</string>
+    <string name="falcon_view_label">Falcon View</string>
+    <string name="all_reminders_label">Összes Emlékeztető</string>
+    <string name="meeting_reminders_label">Találkozás Emlékeztetők</string>
+    <string name="todo_reminders_label">Tennivalók Emlékeztetők</string>
+    <string name="bill_pay_reminders">Számlabefizetés Emlékeztetők</string>
+    <string name="birthday_reminders_label">Születésnap Emlékeztetők</string>
+    <string name="anniversary_reminders_label">Évforduló Emlékeztetők</string>
+    <string name="today_label">Ma</string>
+    <string name="next_7_label">Következő 7 Napban</string>
+    <string name="upcoming_label">Hamarosan</string>
+    <string name="all_label">Összes</string>
+    <string name="meeting_label">Találkozás</string>
+    <string name="todo_label">Tennivalók</string>
+    <string name="bill_pay_label">Számlabefizetés</string>
+    <string name="birthday_label">Születésnap</string>
+    <string name="anniversary_label">Évfordulóy</string>
+    <string name="feedback_email_label">Visszajelzés Érkezett egy Felhasználótól</string>
+    <string name="send_feedback_label">Visszajelzés Küldése</string>
+    <string name="type_feedback_question_label">Visszajelzés vagy Kérdés Írása</string>
+    <string name="email_label">Add meg az e-mail címed</string>
+    <string name="alarm_label">Értesítés</string>
+    <string name="call_reminder_label">Hívás Emlékeztetők</string>
+    <string name="tap_reminder_label">Bökj a RemindKing megnyitásához</string>
+    <string name="reminder_notification_label">Nincs emlékeztetőd a következő 7 napban, hozz létre egyet most</string>
+    <string name="reminder_prefix_label">Van </string>
+    <string name="reminder_append_label"> Emlékeztetőd a következő 7 napban</string>
+    <string name="sms_scheduled_label">Tervezett SMS készen áll a kézbesítésre</string>
+    <string name="alarm_scheduled_label">Értesítés Beállítva</string>
+    <string name="call_scheduled_label">Hívás Betervezve</string>
+    <string name="select_free_label">Válaszd Ingyen $0.00</string>
+    <string name="item_label">elem</string>
+    <string name="browse_label">Böngészés</string>
+    <string name="premium_image_label">Válassz Prémium Képet</string>
+    <string name="backup_restore_label">Biztonsági mentés és Visszaállítás</string>
+    <string name="share_label">Megosztás</string>
+    <string name="rate_this_label">Értékeld az App-ot</string>
+    <string name="about_help_label">Rólunk és Segítség</string>
+    <string name="checklist_label">Ellenőrzési Lista</string>
+    <string name="schedule_date_label">Állíts dátumod</string>
+    <string name="schedule_time_label">Állíts időt</string>
+    <string name="select_date_label">Válassz dátumot</string>
+    <string name="select_time_label">Válassz időt</string>
+    <string name="repitition_label">Ismétlés</string>
+    <string name="never_repeat_label">Soha ne ismétlődjön</string>
+    <string name="optional_call_reminder_hint_label">(Nem kötelező) Írd be a hívás emlékeztető részleteit</string>
+    <string name="alarm_hint_label">Miről szól az értesítés</string>
+    <string name="sms_hint_label">-írd be az SMS szövegét</string>
+    <string name="alarm_tune_label">Értesítési Hang</string>
+    <string name="scheduled_sms_text">Tervezett SMS</string>
+    <string name="every_day_label">Minden Nap</string>
+    <string name="every_week_label">Minden Héten</string>
+    <string name="mon_fri_label">Hétfő-Péntek</string>
+    <string name="sat_sun_label">Szombat-Vasárnap</string>
+    <string name="every_month_label">Minden Hónapban</string>
+    <string name="every_year_label">Minden Évben</string>
+    <string name="custom_label">Egyedi</string>
+    <string name="repeat_every_label">Ismétlődjön Minden Nap</string>
+    <string name="days_label">Napok</string>
+    <string name="weeks_label">Hetek</string>
+    <string name="months_label">Hónapok</string>
+    <string name="years_label">Évek</string>
+    <string name="no_items_selected_label">Nincs kiválasztott elem.</string>
+    <string name="alarm_clock_label">Ébresztőóra</string>
+    <string name="gong_label">Gong</string>
+    <string name="tingsha_label">Tingsha tibetano</string>
+    <string name="sms_label">SMS</string>
+    <string name="call_label">Hívás</string>
+    <string name="no_items_yet_label">Nincs még elem</string>
+    <string name="type_new_item_label">Írj be új elemet</string>
+    <string name="add_items_sms_label">Adj hozzá elemet az SMS-hez</string>
+    <string name="group_creating_label">Csoportok Létrehozása</string>
+    <string name="all_message_del_label">Minden Üzenet Törölve</string>
+    <string name="message_del_label">Üzenet Törölve</string>
+    <string name="group_del_label">Csoport Törlése</string>
+    <string name="dismiss_label">Elutasít</string>
+    <string name="dismiss_call_label">Kérlek csúsztasd az Elutasításhoz, vagy Híváshoz</string>
+    <string name="slide_dismiss_label">Kérlek csúsztasd az Elutasításhoz</string>
+
+    <string name="base_64_part_initial">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtzNVUUuvoqJUgZCKstZT1IiUvdrgiacNbgIqED2IjyUukVpJSstW+mIoAFPFHQ5kdzyPHbQKtvQHKqeECBS4DZ2pR3d/</string>
+    <string name="base_64_part_last">VnqmPT7k6jzKiTvQHxS83xzyYl8Y5Y38de5xEPnWkWIBYuyoraQJ3h8K4rfmkS4pS+nQALyd07pHdFKBgQUqnHTy8GZphPPL+SIjNoTDexgswe+QqjsEZaCiDdNfOkIGA4RkgNXM/Vat8SzmWp48uQIDAQAB</string>
+    <string name="base_64_part_middle">IIAyFG1/oeqKENNeXHhXjucu6Ykgw70ycyyiegQ+QGpgUO9unZsh6YqDa7yYV1VO46ximhW6SGq46bb16QES0P6cIAHnkR57cXm/</string>
+    <string name="twitter_key">umqVdNp559amgyv5UtJYMQrzk</string>
+    <string name="twitter_secret">yesgvVI9LnbsUsFpImxrvt0AjLMKcQAEV6bmnaapdTJXW4Fz0n</string>
+    <string name="vibrate_label">Vibrate</string>
+    <string name="reminder_label">Reminders:: Today {0}, Next 7 days {1}</string>
+</resources>

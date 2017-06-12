@@ -1,0 +1,72 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roosterr.FalconActivity$PlaceholderFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_margin_small"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section_day"
+            android:text="Today (X)"
+            style="@style/rv_header" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin_small"
+            app:cardElevation="6dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/section_day_list"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/list_item_falcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            style="@style/rv_header"
+            android:id="@+id/section_week"
+            android:text="Next 7 Days (X)" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin_small"
+            app:cardElevation="6dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/section_week_list"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/list_item_falcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/rv_header"
+            android:id="@+id/section_upcoming"
+            android:text="Upcoming (X)" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin_small"
+            app:cardElevation="6dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/section_upcoming_list"
+                app:layoutManager="LinearLayoutManager"
+                tools:listitem="@layout/list_item_falcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

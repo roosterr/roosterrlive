@@ -1,0 +1,457 @@
+<resources>
+    <string name="app_name">roosterr</string>
+
+    <string name="navigation_drawer_open">Buksan ang navigation drawer</string>
+    <string name="navigation_drawer_close">Isara ang navigation drawer</string>
+
+    <string name="action_settings">Mga Setting</string>
+    <string name="good_morning">Magandang Umaga!</string>
+    <string name="send_to">I-share sa Kaibigan</string>
+    <string name="group_name">Pangalan ng Grupo</string>
+    <string name="share_title">I-share sa Kaibigan</string>
+    <string name="title_activity_edit">I-edit ang Reminder Group</string>
+    <string name="title_activity_file">I-browse ang Larawan</string>
+    <string name="save">I-save</string>
+    <string name="day">Naka-iskedyul na Reminder</string>
+    <string name="title_activity_group_image">Piliin ang Larawan</string>
+    <string name="type_contact_name_or_phone_number">I-type ang pangalan ng kontak o numero ng telepono</string>
+    <string name="tip_this_group_has_no_members">TIP: Ang grupong ito ay walang mga miyembro</string>
+    <string name="tip_tap_to_delete">Tip: I-tap ang pangalan ng kontak para mabura</string>
+    <string name="allow_contacts">Payagang ma-access ang mga kontak para makapagdagdag ng bagong mga miyembro</string>
+    <string name="title_activity_about">Tungkol sa Amin</string>
+    <string name="about_quote">\"Sa Likod Ng Bawat Matagumpay na Tao \n Ay Isang Mahusay na Reminder App\"</string>
+    <string name="about_message">Para sa mga taong dumaranas ng pagkawala ng \nmemorya, pinapaalalahanan ko sila gamit ang</string>
+    <string name="about_header_1">Simple, Malinis at Praktikal na App</string>
+    <string name="about_header_2">Para sa</string>
+    <string name="about_header_3">mga ToDo List at mga Reminder</string>
+    <string name="about_version_code">Version 2.0</string>
+    <string name="about_help_faqs"><![CDATA[Tulong & FAQs]]></string>
+
+    <string-array name="type">
+        <item>@string/days_label</item>
+        <item>@string/weeks_label</item>
+        <item>@string/months_label</item>
+        <item>@string/years_label</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_upgrade">Premium na mga Feature</string>
+    <string name="title_activity_feedback">Magpadala ng Feedback</string>
+    <string name="dialog_rate">Kung nakita mong ang app na ito ay kapaki-pakinabang, pakisuyong i-rate kami sa playstore</string>
+    <string name="title_activity_reminder_set">Nai-save ang Reminder</string>
+    <string name="title_activity_falcon">FalconActivity</string>
+    <string name="section_format">Hello World mula sa seksyon: %1$d</string>
+    <string name="activity_title_create">Gumawa ng Reminder</string>
+    <string name="upgrade_prompt">Tingnan ang lahat ng iyong susunod na mga reminder nang naka-timeline view. Kapaki-pakinabang itong feature. \n \nPara mai-unlock ang Falcon View mag-upgrade sa PRO version.</string>
+    <string name="dialog_alarm_title">Pumili ng Alarm Tune</string>
+    <string name="done">Tapos na</string>
+    <string name="close">Isara</string>
+    <string name="title_activity_check_list">Magdagdag ng Checklist sa SMS</string>
+    <string name="dialog_new_list_hint">I-type ang Bagong Pangalan ng Checklist</string>
+    <string name="type_sms_message_text">I-type ang SMS na mensaheng text</string>
+    <string name="title_activity_backup">Backup / Restore</string>
+    <string name="title_activity_sent_reminders">Pinadalang mga Reminder</string>
+    <string name="delete_all">Burahin Lahat</string>
+    <string name="no_reminders_sent_yet">Walang naipadalang mga reminder.</string>
+    <string name="delete_all_sent_reminders">Burahin lahat ng ipinadalang reminder?</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="nothing_to_delete">Walang buburahin</string>
+    <string name="delete_group">Burahin ang grupo at ang mga reminder nito?</string>
+    <string name="delete">Burahin</string>
+    <string name="group_delete_success">Ang grupo ay matagumpay na nabura.</string>
+    <string name="title_activity_login">Mag-log in</string>
+    <string name="content_description_app_loading_image">App loading na larawan</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (opsyonal)</string>
+    <string name="action_sign_in">Mag-sign in o mag-register</string>
+    <string name="action_sign_in_short">Mag-sign in</string>
+    <string name="error_invalid_email">Ang email address na ito ay invalid</string>
+    <string name="error_invalid_password">Ang password na ito ay masyadong maikli</string>
+    <string name="error_incorrect_password">Ang password na ito ay mali</string>
+    <string name="error_field_required">Ang field na ito ay kailangan</string>
+    <string name="advertisement">Ad</string>
+    <string name="appinstall_imagedescription">Screenshot</string>
+    <string name="permission_rationale">Kinakailangan ang pahintulot sa mga kontak para mailaan ang mga email completion.</string>
+    <string name="reminder_text_demo">Oras na para umorder ng cake para sa kaarawan ng iyong\ asawa</string>
+    <string name="backup_upgrade_text">I-backup at I-restore ang iyong mga reminder. \n \nPara mai-unlock ang Backup at Restore mag-upgrade sa PRO version.</string>
+    <string name="authentication_success">Matagumpay ang pag-authenticate para sa </string>
+    <string name="design_label">Dinisenyo Ng</string>
+    <string name="in_label">SA</string>
+    <string name="country_label">Florida U.S.</string>
+    <string name="loading_label">Naglo-load&#8230;&#8230;&#8230;</string>
+    <string name="eve_label">Magandang Gabi</string>
+    <string name="aftr_label">Magandang Hapon</string>
+    <string name="morn_label">Umaga</string>
+    <string name="good_label">Mabuti </string>
+    <string name="create_label">Lumikha</string>
+    <string name="purchased_label">BINILI</string>
+    <string name="upgrade_label">MAG-UPGRADE NGAYON</string>
+    <string name="ratenow_label">I-rate Ngayon</string>
+    <string name="group_created_label">Lumikha ng Grupo </string>
+    <string name="fetch_group_label">Kinukuha ang mga Grupo&#8230;&#8230;&#8230;</string>
+    <string name="fetch_msg_label">Kinukuha ang mga Mensahe&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_label">Kinukuha ang mga Kategorya&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_item_label">Kinukuha ang mga Item sa Kategorya&#8230;&#8230;&#8230;</string>
+    <string name="market_app_err_label"> hindi mahanap ang market app</string>
+    <string name="yes_label">Oo</string>
+    <string name="no_label">Hindi</string>
+    <string name="exit_label">Gusto mo bang lumisan?</string>
+    <string name="like_app_label">I-like ang app na ito</string>
+    <string name="upgrade_premium_label">Mag-upgrade sa Premium!</string>
+    <string name="no_ads_label">WALANG ADS</string>
+    <string name="go_pro_label">GAMITIN ANG PRO</string>
+    <string name="iab_err_label">Suliranin sa pag-set-up ng in-app billing: </string>
+    <string name="iab_err_err_2">Error sa pag-query ng imbentaryo. Isa na namang async operation ang nagaganap.</string>
+    <string name="iab_err_inv">Nabigong mag-query sa imbentaryo: </string>
+    <string name="iab_err_purchase">Error sa pagbili. Nabigo ang beripikasyon sa authenticity.</string>
+    <string name="iab_thank_no_ads">Salamat sa pag-upgrade sa Walang Ads!</string>
+    <string name="iab_thank_go_pro">Salamat sa pag-upgrade sa Gamitin ang Pro!</string>
+    <string name="iab_thank_both">Salamat sa pag-upgrade sa Dalawa!</string>
+    <string name="err_label">Error:</string>
+    <string name="ok_label">OK</string>
+    <string name="remove_ads_label">Alisin ang Ads</string>
+    <string name="unlock_falcon_label">I-unlock ang Falcon View, premium na mga larawan at Backup/Restore</string>
+    <string name="enjoy_label">I-enjoy ang pure na experience</string>
+    <string name="or_label">O</string>
+    <string name="unlock_both_label">Alisin ang Ads. At i-unlock ang mga larawan, Falcon View at Backup/Restore</string>
+    <string name="get_both_label">Kunin Pareho</string>
+    <string name="upgrade_to_pro_label">Mag-upgrade sa PRO</string>
+    <string name="backup_label">Backup</string>
+    <string name="restore_label">Restore</string>
+    <string name="restore_file_label">Ang restore na file ay kailangang panatilihin sa Phone Memory</string>
+    <string name="backup_file_label">Ang backup ay naka-save sa Download folder. Filename : RemindKing.DB</string>
+    <string name="email_backup_label">I-email ang Backup File</string>
+    <string name="backup_alert_label">Pakisuyong pumili ng .DB file</string>
+    <string name="backup_restore_success_label">Matagumpay ang Backup Restore</string>
+    <string name="checklist_default_name">Bagong Checklist</string>
+    <string name="no_task_label">Walang naipasok na titulo ng task.</string>
+    <string name="title_label">Titulo</string>
+    <string name="edit_add_group_label">Magdagdag muna ng mga kontak sa grupo</string>
+    <string name="edit_reminder_enabled_label">Pinagana ang Reminder</string>
+    <string name="edit_reminder_disabled_label">Naka-disable ang Reminder</string>
+    <string name="copy_reminder_label">Kopyahin ang reminder tungo sa grupo</string>
+    <string name="select_all_label">Piliin Lahat</string>
+    <string name="delete_reminder_label">Burahin ang reminder?</string>
+    <string name="scheduled_reminder_label">Naka-iskedyul na mga Reminder</string>
+    <string name="active_label">Aktibo</string>
+    <string name="falcon_view_label">Falcon View</string>
+    <string name="all_reminders_label">Lahat ng mga Reminder</string>
+    <string name="meeting_reminders_label">Reminder ng mga Miting</string>
+    <string name="todo_reminders_label">Reminder ng mga Gagawin</string>
+    <string name="bill_pay_reminders">Reminder ng mga Bayarin</string>
+    <string name="birthday_reminders_label">Reminder ng mga Kaarawan</string>
+    <string name="anniversary_reminders_label">Reminder ng mga Anibersaryo</string>
+    <string name="today_label">Ngayon</string>
+    <string name="next_7_label">Susunod na 7 Araw</string>
+    <string name="upcoming_label">Paparating</string>
+    <string name="all_label">Lahat</string>
+    <string name="meeting_label">Miting</string>
+    <string name="todo_label">Gagawin</string>
+    <string name="bill_pay_label">Bayarin</string>
+    <string name="birthday_label">Kaarawan</string>
+    <string name="anniversary_label">Anibersaryo</string>
+    <string name="feedback_email_label">Natanggap na Feedback mula sa User</string>
+    <string name="send_feedback_label">Magpadala ng Feedback</string>
+    <string name="type_feedback_question_label">I-type ang feedback o tanong</string>
+    <string name="email_label">Ilagay ang iyong email address</string>
+    <string name="alarm_label">Alarm</string>
+    <string name="call_reminder_label">Reminder ng Call</string>
+    <string name="tap_reminder_label">I-tap para buksan ang RemindKing</string>
+    <string name="reminder_notification_label">Wala kang mga reminder sa susunod na 7 araw, gumawa ng reminder ngayon</string>
+    <string name="reminder_prefix_label">Mayroon kang </string>
+    <string name="reminder_append_label"> mga reminder sa susunod na 7 araw</string>
+    <string name="sms_scheduled_label">SMS na Naka-iskedyul Ipadala</string>
+    <string name="alarm_scheduled_label">Naka-set ang Alarm</string>
+    <string name="call_scheduled_label">Na-iskedyul ang Call</string>
+    <string name="select_free_label">Piliin ang Libreng $0.00</string>
+    <string name="item_label">item</string>
+    <string name="browse_label">I-browse</string>
+    <string name="premium_image_label">Piliin ang Premium na Larawan</string>
+    <string name="backup_restore_label">Backup at Restore</string>
+    <string name="share_label">I-share</string>
+    <string name="rate_this_label">I-rate ang App na Ito</string>
+    <string name="about_help_label">Tungkol at Tulong</string>
+    <string name="checklist_label">Checklist</string>
+    <string name="schedule_date_label">Mag-iskedyul ng petsa</string>
+    <string name="schedule_time_label">Mag-iskedyul ng oras</string>
+    <string name="select_date_label">Pumili ng petsa</string>
+    <string name="select_time_label">Pumili ng oras</string>
+    <string name="repitition_label">Pag-uulit</string>
+    <string name="never_repeat_label">Huwag Umulit</string>
+    <string name="optional_call_reminder_hint_label">(Opsyonal) ilagay ang detalye ng reminder na call </string>
+    <string name="alarm_hint_label">Tungkol saan ang alarm</string>
+    <string name="sms_hint_label">I-type ang sms na mensaheng text</string>
+    <string name="alarm_tune_label">Alarm Tune</string>
+    <string name="scheduled_sms_text">Naka-iskedyul na SMS</string>
+    <string name="every_day_label">Kada Araw</string>
+    <string name="every_week_label">Kada Linggo</string>
+    <string name="mon_fri_label">Lunes-Biyernes</string>
+    <string name="sat_sun_label">Sabado-Linggo</string>
+    <string name="every_month_label">Kada Buwan</string>
+    <string name="every_year_label">Kada Taon</string>
+    <string name="custom_label">I-custom</string>
+    <string name="repeat_every_label">Ulitin ng kada</string>
+    <string name="days_label">Araw</string>
+    <string name="weeks_label">Linggo</string>
+    <string name="months_label">Buwan</string>
+    <string name="years_label">Taon</string>
+    <string name="no_items_selected_label">Walang mga item na napili.</string>
+    <string name="alarm_clock_label">Alarm Clock</string>
+    <string name="gong_label">Gong</string>
+    <string name="tingsha_label">Tingsha tibetano</string>
+    <string name="sms_label">SMS</string>
+    <string name="call_label">Call</string>
+    <string name="no_items_yet_label">Wala pang mga item</string>
+    <string name="type_new_item_label">Mag-type ng bagong item</string>
+    <string name="add_items_sms_label">Magdagdag ng bagong mga item sa SMS</string>
+    <string name="group_creating_label">Lumilikha ng mga Grupo</string>
+    <string name="all_message_del_label">Lahat ng Mensahe ay Binura</string>
+    <string name="message_del_label">Ang Mensahe ay Binura</string>
+    <string name="group_del_label">Binubura ang Grupo</string>
+    <string name="dismiss_label">Kanselahin</string>
+    <string name="dismiss_call_label">Paki-slide upang kanselahin ang Call</string>
+    <string name="slide_dismiss_label">Paki-slide upang kanselahin</string>
+ 	<string name="base_64_part_initial">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtzNVUUuvoqJUgZCKstZT1IiUvdrgiacNbgIqED2IjyUukVpJSstW+mIoAFPFHQ5kdzyPHbQKtvQHKqeECBS4DZ2pR3d/</string>
+    <string name="base_64_part_last">VnqmPT7k6jzKiTvQHxS83xzyYl8Y5Y38de5xEPnWkWIBYuyoraQJ3h8K4rfmkS4pS+nQALyd07pHdFKBgQUqnHTy8GZphPPL+SIjNoTDexgswe+QqjsEZaCiDdNfOkIGA4RkgNXM/Vat8SzmWp48uQIDAQAB</string>
+    <string name="base_64_part_middle">IIAyFG1/oeqKENNeXHhXjucu6Ykgw70ycyyiegQ+QGpgUO9unZsh6YqDa7yYV1VO46ximhW6SGq46bb16QES0P6cIAHnkR57cXm/</string>
+    <string name="twitter_key">umqVdNp559amgyv5UtJYMQrzk</string>
+    <string name="twitter_secret">yesgvVI9LnbsUsFpImxrvt0AjLMKcQAEV6bmnaapdTJXW4Fz0n</string>
+</resources>

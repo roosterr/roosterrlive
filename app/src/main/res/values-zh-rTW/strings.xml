@@ -1,0 +1,469 @@
+﻿<resources>
+  <string name="app_name">提醒王RemindKing</string>
+  <string name="navigation_drawer_open">打開選單</string>
+  <string name="navigation_drawer_close">關閉選單</string>
+  <string name="action_settings">設定</string>
+  <string name="good_morning">早安!</string>
+  <string name="send_to">分享給朋友</string>
+  <string name="group_name">群組名稱</string>
+  <string name="share_title">分享給朋友</string>
+  <string name="title_activity_edit">編輯提醒群組</string>
+  <string name="title_activity_file">瀏覽圖片</string>
+  <string name="save">儲存</string>
+  <string name="day">預約的提醒</string>
+  <string name="title_activity_group_image">選擇圖片</string>
+  <string name="type_contact_name_or_phone_number">輸入聯絡人名稱或電話號碼</string>
+  <string name="tip_this_group_has_no_members">提示:這個群組沒有成員 
+</string>
+  <string name="tip_tap_to_delete">提示: 點擊聯絡人名稱刪除</string>
+  <string name="allow_contacts">允許讀取通訊錄以加入新成員</string>
+  <string name="title_activity_about">關於我們</string>
+  <string name="about_quote">\&quot;每個成功的男人背後 \n 都有一個偉大的提醒App\&quot;</string>
+  <string name="about_message">為了失憶而苦的人們 \n我推薦他們使用</string>
+  <string name="about_header_1">代辦清單 &amp; 提醒</string>
+  <string name="about_header_2">就交給這個</string>
+  <string name="about_header_3">簡潔而實用的App吧!</string>
+  <string name="about_version_code">Version 2.0</string>
+  <string name="about_help_faqs">
+    <![CDATA[Help & FAQs]]>
+  </string>
+  <string-array name="type">
+    <item>@string/days_label</item>
+    <item>@string/weeks_label</item>
+    <item>@string/months_label</item>
+    <item>@string/years_label</item>
+  </string-array>
+  <string-array name="numbers">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+  </string-array>
+  <string-array name="CountryCodes">
+    <item>93,AF</item>
+    <item>355,AL</item>
+    <item>213,DZ</item>
+    <item>376,AD</item>
+    <item>244,AO</item>
+    <item>672,AQ</item>
+    <item>54,AR</item>
+    <item>374,AM</item>
+    <item>297,AW</item>
+    <item>61,AU</item>
+    <item>43,AT</item>
+    <item>994,AZ</item>
+    <item>973,BH</item>
+    <item>880,BD</item>
+    <item>375,BY</item>
+    <item>32,BE</item>
+    <item>501,BZ</item>
+    <item>229,BJ</item>
+    <item>975,BT</item>
+    <item>591,BO</item>
+    <item>387,BA</item>
+    <item>267,BW</item>
+    <item>55,BR</item>
+    <item>673,BN</item>
+    <item>359,BG</item>
+    <item>226,BF</item>
+    <item>95,MM</item>
+    <item>257,BI</item>
+    <item>855,KH</item>
+    <item>237,CM</item>
+    <item>238,CV</item>
+    <item>236,CF</item>
+    <item>235,TD</item>
+    <item>56,CL</item>
+    <item>86,CN</item>
+    <item>61,CX</item>
+    <item>61,CC</item>
+    <item>57,CO</item>
+    <item>269,KM</item>
+    <item>242,CG</item>
+    <item>243,CD</item>
+    <item>682,CK</item>
+    <item>506,CR</item>
+    <item>385,HR</item>
+    <item>53,CU</item>
+    <item>357,CY</item>
+    <item>420,CZ</item>
+    <item>45,DK</item>
+    <item>253,DJ</item>
+    <item>670,TL</item>
+    <item>593,EC</item>
+    <item>20,EG</item>
+    <item>503,SV</item>
+    <item>240,GQ</item>
+    <item>291,ER</item>
+    <item>372,EE</item>
+    <item>251,ET</item>
+    <item>500,FK</item>
+    <item>298,FO</item>
+    <item>679,FJ</item>
+    <item>358,FI</item>
+    <item>33,FR</item>
+    <item>689,PF</item>
+    <item>241,GA</item>
+    <item>220,GM</item>
+    <item>995,GE</item>
+    <item>49,DE</item>
+    <item>233,GH</item>
+    <item>350,GI</item>
+    <item>30,GR</item>
+    <item>299,GL</item>
+    <item>502,GT</item>
+    <item>224,GN</item>
+    <item>245,GW</item>
+    <item>592,GY</item>
+    <item>509,HT</item>
+    <item>504,HN</item>
+    <item>852,HK</item>
+    <item>36,HU</item>
+    <item>91,IN</item>
+    <item>62,ID</item>
+    <item>98,IR</item>
+    <item>964,IQ</item>
+    <item>353,IE</item>
+    <item>44,IM</item>
+    <item>972,IL</item>
+    <item>39,IT</item>
+    <item>225,CI</item>
+    <item>81,JP</item>
+    <item>962,JO</item>
+    <item>7,KZ</item>
+    <item>254,KE</item>
+    <item>686,KI</item>
+    <item>965,KW</item>
+    <item>996,KG</item>
+    <item>856,LA</item>
+    <item>371,LV</item>
+    <item>961,LB</item>
+    <item>266,LS</item>
+    <item>231,LR</item>
+    <item>218,LY</item>
+    <item>423,LI</item>
+    <item>370,LT</item>
+    <item>352,LU</item>
+    <item>853,MO</item>
+    <item>389,MK</item>
+    <item>261,MG</item>
+    <item>265,MW</item>
+    <item>60,MY</item>
+    <item>960,MV</item>
+    <item>223,ML</item>
+    <item>356,MT</item>
+    <item>692,MH</item>
+    <item>222,MR</item>
+    <item>230,MU</item>
+    <item>262,YT</item>
+    <item>52,MX</item>
+    <item>691,FM</item>
+    <item>373,MD</item>
+    <item>377,MC</item>
+    <item>976,MN</item>
+    <item>382,ME</item>
+    <item>212,MA</item>
+    <item>258,MZ</item>
+    <item>264,NA</item>
+    <item>674,NR</item>
+    <item>977,NP</item>
+    <item>31,NL</item>
+    <item>599,AN</item>
+    <item>687,NC</item>
+    <item>64,NZ</item>
+    <item>505,NI</item>
+    <item>227,NE</item>
+    <item>234,NG</item>
+    <item>683,NU</item>
+    <item>850,KP</item>
+    <item>47,NO</item>
+    <item>968,OM</item>
+    <item>92,PK</item>
+    <item>680,PW</item>
+    <item>507,PA</item>
+    <item>675,PG</item>
+    <item>595,PY</item>
+    <item>51,PE</item>
+    <item>63,PH</item>
+    <item>870,PN</item>
+    <item>48,PL</item>
+    <item>351,PT</item>
+    <item>974,QA</item>
+    <item>40,RO</item>
+    <item>7,RU</item>
+    <item>250,RW</item>
+    <item>590,BL</item>
+    <item>685,WS</item>
+    <item>378,SM</item>
+    <item>239,ST</item>
+    <item>966,SA</item>
+    <item>221,SN</item>
+    <item>381,RS</item>
+    <item>248,SC</item>
+    <item>232,SL</item>
+    <item>65,SG</item>
+    <item>421,SK</item>
+    <item>386,SI</item>
+    <item>677,SB</item>
+    <item>252,SO</item>
+    <item>27,ZA</item>
+    <item>82,KR</item>
+    <item>34,ES</item>
+    <item>94,LK</item>
+    <item>290,SH</item>
+    <item>508,PM</item>
+    <item>249,SD</item>
+    <item>597,SR</item>
+    <item>268,SZ</item>
+    <item>46,SE</item>
+    <item>41,CH</item>
+    <item>963,SY</item>
+    <item>886,TW</item>
+    <item>992,TJ</item>
+    <item>255,TZ</item>
+    <item>66,TH</item>
+    <item>228,TG</item>
+    <item>690,TK</item>
+    <item>676,TO</item>
+    <item>216,TN</item>
+    <item>90,TR</item>
+    <item>993,TM</item>
+    <item>688,TV</item>
+    <item>971,AE</item>
+    <item>256,UG</item>
+    <item>44,GB</item>
+    <item>380,UA</item>
+    <item>598,UY</item>
+    <item>1,US</item>
+    <item>998,UZ</item>
+    <item>678,VU</item>
+    <item>39,VA</item>
+    <item>58,VE</item>
+    <item>84,VN</item>
+    <item>681,WF</item>
+    <item>967,YE</item>
+    <item>260,ZM</item>
+    <item>263,ZW</item>
+  </string-array>
+    <string name="title_activity_upgrade">進階功能</string>
+    <string name="title_activity_feedback">反饋意見</string>
+    <string name="dialog_rate">如果您覺得這個軟體很實用，請到Play商店上幫我們評分！</string>
+    <string name="title_activity_reminder_set">已儲存的提醒</string>
+    <string name="title_activity_falcon">獵鷹活動</string>
+    <string name="section_format">來自第 %1$d 區的Hello World</string>
+    <string name="activity_title_create">新增提醒</string>
+    <string name="upgrade_prompt">在時間軸檢視即將到來的提醒是個很好用的功能。 \n \n請升級到PRO版本以解鎖鷹眼模式！</string>
+    <string name="dialog_alarm_title">設定鬧鐘鈴聲</string>
+    <string name="done">完成</string>
+    <string name="close">關閉</string>
+    <string name="title_activity_check_list">將清單以簡訊發送</string>
+    <string name="dialog_new_list_hint">輸入新的清單名稱</string>
+    <string name="type_sms_message_text">輸入簡訊內容</string>
+    <string name="title_activity_backup">備份 / 還原</string>
+    <string name="title_activity_sent_reminders">已傳送的提醒</string>
+    <string name="delete_all">全部刪除</string>
+    <string name="no_reminders_sent_yet">沒有已傳送的提醒</string>
+    <string name="delete_all_sent_reminders">刪除所有的提醒嗎?</string>
+    <string name="cancel">取消</string>
+    <string name="nothing_to_delete">沒有可以刪除的東西</string>
+    <string name="delete_group">刪除群組和群組內的提醒嗎?</string>
+    <string name="delete">刪除</string>
+    <string name="group_delete_success">成功地將群組刪除</string>
+    <string name="title_activity_login">登入</string>
+    <string name="content_description_app_loading_image">APP正在載入影像 
+</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">電子郵件</string>
+    <string name="prompt_password">密碼(選填)</string>
+    <string name="action_sign_in">登入或註冊</string>
+    <string name="action_sign_in_short">登入</string>
+    <string name="error_invalid_email">無效的電子郵件地址</string>
+    <string name="error_invalid_password">您輸入的密碼太短</string>
+    <string name="error_incorrect_password">您輸入的密碼錯誤</string>
+    <string name="error_field_required">此欄位為必填</string>
+    <string name="advertisement">廣告</string>
+    <string name="appinstall_imagedescription">螢幕截圖</string>
+ <string name="permission_rationale">需要提供通訊錄權限以取得電子郵件資料</string>
+    <string name="reminder_text_demo">老婆生日得訂個蛋糕
+</string>
+    <string name="backup_upgrade_text">備份和還原你的提醒。 \n \n升級到PRO版以解鎖備份 &amp; 還原功能！</string>
+    <string name="authentication_success">成功認證 
+</string>
+    <string name="design_label">設計者</string>
+    <string name="in_label">在</string>
+    <string name="country_label">美國 佛羅里達</string>
+    <string name="loading_label">載入中&#8230;&#8230;&#8230;</string>
+    <string name="eve_label">晚安!</string>
+    <string name="aftr_label">午安!</string>
+    <string name="morn_label">早安!</string>
+    <string name="good_label"> </string>
+    <string name="create_label">新增</string>
+    <string name="purchased_label">已購買</string>
+    <string name="upgrade_label">現在升級</string>
+    <string name="ratenow_label">現在評分</string>
+    <string name="group_created_label">已新增的群組 </string>
+    <string name="fetch_group_label">取回群組資料&#8230;&#8230;&#8230;</string>
+    <string name="fetch_msg_label">取回 訊息資料&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_label">取回
+目錄資料&#8230;&#8230;&#8230;</string>
+    <string name="fetch_cat_item_label">取回目錄
+項目&#8230;&#8230;&#8230;</string>
+    <string name="market_app_err_label"> 無法在Play商店上找到App</string>
+    <string name="yes_label">是</string>
+    <string name="no_label">否</string>
+    <string name="exit_label">想要離開了嗎?</string>
+    <string name="like_app_label">喜歡這個軟體</string>
+    <string name="upgrade_premium_label">升級到進階版!</string>
+    <string name="no_ads_label">無廣告</string>
+    <string name="go_pro_label">PRO </string>
+    <string name="iab_err_label">內部付費問題:  </string>
+    <string name="iab_err_err_2">庫存查詢錯誤，非同步操作進行中。</string>
+    <string name="iab_err_inv">庫存查詢失敗: </string>
+    <string name="iab_err_purchase">購買發生錯誤，憑證驗證失敗。</string>
+    <string name="iab_thank_no_ads">感謝您升級為無廣告會員! </string>
+    <string name="iab_thank_go_pro">感謝您升級為PRO會員! </string>
+    <string name="iab_thank_both">感謝您升級為一箭雙鵰會員!</string>
+    <string name="err_label">錯誤:</string>
+    <string name="ok_label">OK</string>
+    <string name="remove_ads_label">移除廣告</string>
+    <string name="unlock_falcon_label">解鎖鷹眼模式、進階影像和備份還原功能</string>
+    <string name="enjoy_label">享受自在體驗</string>
+    <string name="or_label">或者</string>
+    <string name="unlock_both_label">移除廣告並解鎖進階影像、鷹眼模式和備份還原功能</string>
+    <string name="get_both_label">一箭雙鵰</string>
+    <string name="upgrade_to_pro_label">升級到PRO版</string>
+    <string name="backup_label">備份</string>
+    <string name="restore_label">還原</string>
+    <string name="restore_file_label">還原的檔案必須放在手機的記憶體中</string>
+    <string name="backup_file_label">備份已儲存在 Download 資料夾中.  
+檔案名稱 : RemindKing.DB</string>
+    <string name="email_backup_label">郵寄備份檔案</string>
+    <string name="backup_alert_label">請選擇一個 .DB 檔</string>
+    <string name="backup_restore_success_label">備份 還原  
+成功</string>
+    <string name="checklist_default_name">新的檢查清單</string>
+    <string name="no_task_label">未輸入任務標題</string>
+    <string name="title_label">標題</string>
+    <string name="edit_add_group_label">請先將聯絡人加入群組
+</string>
+    <string name="edit_reminder_enabled_label">已啟動的提醒</string>
+    <string name="edit_reminder_disabled_label">已關閉的提醒</string>
+    <string name="copy_reminder_label">將提醒複製到群組</string>
+    <string name="select_all_label">全選</string>
+    <string name="delete_reminder_label">刪除提醒?</string>
+    <string name="scheduled_reminder_label">預約的提醒</string>
+    <string name="active_label">啟動</string>
+    <string name="falcon_view_label">鷹眼模式</string>
+    <string name="all_reminders_label">所有提醒</string>
+    <string name="meeting_reminders_label">會議提醒</string>
+    <string name="todo_reminders_label">代辦提醒</string>
+    <string name="bill_pay_reminders">付帳提醒</string>
+    <string name="birthday_reminders_label">生日提醒</string>
+    <string name="anniversary_reminders_label">周年紀念日 
+提醒</string>
+    <string name="today_label">今日</string>
+    <string name="next_7_label">接下來的7天</string>
+    <string name="upcoming_label">即將來臨</string>
+    <string name="all_label">全部</string>
+    <string name="meeting_label">會議</string>
+    <string name="todo_label">待辦</string>
+    <string name="bill_pay_label">付帳</string>
+    <string name="birthday_label">生日</string>
+    <string name="anniversary_label">周年紀念日</string>
+    <string name="feedback_email_label">來自使用者的反饋</string>
+    <string name="send_feedback_label">傳送反饋</string>
+    <string name="type_feedback_question_label">輸入反饋意見或問題</string>
+    <string name="email_label">輸入您的電子郵件地址</string>
+    <string name="alarm_label">鬧鐘</string>
+    <string name="call_reminder_label">電話提醒</string>
+    <string name="tap_reminder_label">點擊打開提醒王 RemindKing</string>
+    <string name="reminder_notification_label">在接下來的七天內，您沒有任何提醒，新增一個提醒吧！ 
+</string>
+    <string name="reminder_prefix_label">你有 </string>
+    <string name="reminder_append_label"> 在接下來七天內的提醒</string>
+    <string name="sms_scheduled_label">已預約發送的簡訊</string>
+    <string name="alarm_scheduled_label">鬧鐘已經設置 </string>
+    <string name="call_scheduled_label">電話已經預約</string>
+    <string name="select_free_label">選擇免費 $0.00</string>
+    <string name="item_label">項目</string>
+    <string name="browse_label">瀏覽</string>
+    <string name="premium_image_label">選擇進階影像</string>
+    <string name="backup_restore_label">備份和還原</string>
+    <string name="share_label">分享</string>
+    <string name="rate_this_label">為App評分</string>
+    <string name="about_help_label">關於和幫助</string>
+    <string name="checklist_label">檢查清單</string>
+    <string name="schedule_date_label">預約日期</string>
+    <string name="schedule_time_label">預約時間</string>
+    <string name="select_date_label">選擇日期</string>
+    <string name="select_time_label">選擇時間</string>
+    <string name="repitition_label">重複</string>
+    <string name="never_repeat_label">從不重複</string>
+    <string name="optional_call_reminder_hint_label">(選填) 輸入電話提醒內容
+</string>
+    <string name="alarm_hint_label">這個鬧鐘是關於什麼呢?</string>
+    <string name="sms_hint_label">輸入簡訊文字</string>
+    <string name="alarm_tune_label">鬧鐘鈴聲</string>
+    <string name="scheduled_sms_text">預約簡訊</string>
+    <string name="every_day_label">每日</string>
+    <string name="every_week_label">每周 </string>
+    <string name="mon_fri_label">周一至週五</string>
+    <string name="sat_sun_label">周六至周日</string>
+    <string name="every_month_label">每月</string>
+    <string name="every_year_label">每年 </string>
+    <string name="custom_label">自訂</string>
+    <string name="repeat_every_label">重複頻率</string>
+    <string name="days_label">日</string>
+    <string name="weeks_label">周</string>
+    <string name="months_label">月份</string>
+    <string name="years_label">年</string>
+    <string name="no_items_selected_label">沒有選取任何項目</string>
+    <string name="alarm_clock_label">鬧鐘</string>
+    <string name="gong_label">鑼聲</string>
+    <string name="tingsha_label">西藏碰鈴</string>
+    <string name="sms_label">簡訊</string>
+    <string name="call_label">撥號</string>
+ 	<string name="base_64_part_initial">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtzNVUUuvoqJUgZCKstZT1IiUvdrgiacNbgIqED2IjyUukVpJSstW+mIoAFPFHQ5kdzyPHbQKtvQHKqeECBS4DZ2pR3d/</string>
+    <string name="base_64_part_last">VnqmPT7k6jzKiTvQHxS83xzyYl8Y5Y38de5xEPnWkWIBYuyoraQJ3h8K4rfmkS4pS+nQALyd07pHdFKBgQUqnHTy8GZphPPL+SIjNoTDexgswe+QqjsEZaCiDdNfOkIGA4RkgNXM/Vat8SzmWp48uQIDAQAB</string>
+    <string name="base_64_part_middle">IIAyFG1/oeqKENNeXHhXjucu6Ykgw70ycyyiegQ+QGpgUO9unZsh6YqDa7yYV1VO46ximhW6SGq46bb16QES0P6cIAHnkR57cXm/</string>
+    <string name="twitter_key">umqVdNp559amgyv5UtJYMQrzk</string>
+    <string name="twitter_secret">yesgvVI9LnbsUsFpImxrvt0AjLMKcQAEV6bmnaapdTJXW4Fz0n</string>
+	<string name="add_items_sms_label">在簡訊中添加項目</string>
+	<string name="type_new_item_label">輸入新的項目</string>
+	<string name="no_items_yet_label">還沒有任何項目</string>
+	<string name="all_message_del_label">所有訊息都被刪除了</string>
+	<string name="group_creating_label">建立群組</string>
+	<string name="group_del_label">正在刪除群組</string>
+	<string name="message_del_label">訊息已刪除</string>
+	<string name="dismiss_call_label">請划動以取消或撥號</string>
+	<string name="dismiss_label">取消</string>
+	<string name="slide_dismiss_label">請划動以取消</string>
+    <string name="vibrate_label">Vibrate</string>
+    <string name="reminder_label">Reminders:: Today {0}, Next 7 days {1}</string>
+</resources>

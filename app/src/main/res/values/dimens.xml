@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">32dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_large">24dp</dimen>
+    <dimen name="activity_margin_small">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_bottombar">72dp</dimen>
+    <dimen name="bottombar_height">64dp</dimen>
+    <dimen name="falcon_bottombar_height">56dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_margin_small">8dp</dimen>
+    <dimen name="list_item_small_icon_padding">4dp</dimen>
+    <dimen name="list_item_small_padding">2dp</dimen>
+    <dimen name="list_item_big_padding">20.0dip</dimen>
+    <dimen name="list_item_icon">38dp</dimen>
+    <dimen name="list_item_editscreen_icon">36dp</dimen>
+    <dimen name="share_margin">8dp</dimen>
+    <dimen name="list_item_image">56dp</dimen>
+    <dimen name="grid_image">78dp</dimen>
+    <dimen name="share_icon_height">36dp</dimen>
+    <dimen name="margin_group_icon_top">50dp</dimen>
+    <dimen name="margin_group_icon_inner">30dp</dimen>
+    <dimen name="height_group_icon">78dp</dimen>
+    <dimen name="switch_compat_thumb_margin">1dp</dimen>
+    <dimen name="switch_compat_thumb_size">12dp</dimen>
+    <dimen name="switch_compat_thumb_stroke_width">8dp</dimen>
+    <dimen name="switch_compat_track_size">6dp</dimen>
+    <dimen name="switch_compat_track_radius">8dp</dimen>
+    <dimen name="switch_compat_track_stroke_width">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="upgrade_buttons_min_width">150dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="zero_elevation">0dp</dimen>
+</resources>

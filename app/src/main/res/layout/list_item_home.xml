@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundWhite">
+    <!-- android:layout_height="80dp" -->
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chevron"
+            app:srcCompat="@drawable/ic_chevron_right_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/reminder_name"
+            android:layout_toLeftOf="@+id/chevron"
+            android:lines="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="36dp"
+            android:layout_toRightOf="@id/image"
+            android:layout_alignTop="@id/image"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_call_16dp"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/iconGrey"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginRight="@dimen/list_item_margin"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_message_16dp"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/iconGrey"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginRight="@dimen/list_item_margin"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_alarms_16dp"/>
+
+            <TextView
+                android:id="@+id/repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/iconGrey"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+
+            android:layout_toLeftOf="@id/chevron">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/list_item_small_icon_padding"
+                app:srcCompat="@drawable/ic_group_16dp"/>
+
+            <TextView
+                android:id="@+id/group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/iconGrey"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginRight="@dimen/list_item_margin"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/list_item_image"
+            android:layout_height="@dimen/list_item_image"
+            android:background="@color/dividerGrey"
+            android:id="@+id/image"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp" />
+
+
+    </RelativeLayout>
+</FrameLayout>

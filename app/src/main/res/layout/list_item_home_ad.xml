@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.NativeExpressAdView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adExpressView"
+    ads:adSize="FULL_WIDTHx80"
+    ads:adUnitId="ca-app-pub-6214469096466976/4832658248"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <!-- ads:adSize="300x80" -->
+    <!--  android:background="@drawable/ad_bg" -->
+    <!-- android:layout_gravity="center_horizontal" -->

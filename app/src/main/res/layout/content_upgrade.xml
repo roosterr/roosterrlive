@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.roosterr.UpgradeActivity"
+    tools:showIn="@layout/activity_upgrade">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_upgrade"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.roosterr.UpgradeActivity"
+    tools:showIn="@layout/activity_upgrade">
+    <ImageView
+        android:id="@+id/screen_wait"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description_app_loading_image"
+        app:srcCompat="@drawable/ic_rooster_24dp"
+        android:visibility="gone" />
+    <LinearLayout
+        android:background="@color/backgroundWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:layout_marginTop="@dimen/activity_margin_small">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minHeight="136dp"
+            android:background="@color/backgroundBlue"
+            android:padding="@dimen/activity_margin">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/list_item_image"
+                android:layout_height="@dimen/list_item_image"
+                android:layout_margin="@dimen/activity_margin_large"
+                app:srcCompat="@drawable/ic_no_ads" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/list_item_margin_small"
+            android:layout_marginBottom="@dimen/list_item_margin_small"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin_small"
+                    android:text="@string/no_ads_label"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/no_ads_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorSecondAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                android:text="@string/enjoy_label"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/remove_ads_label" />
+
+            <Button
+                android:id="@+id/buttonNoAdsPurchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/purchased_label"
+                android:theme="@style/AppTheme.ColoredButtonThird"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/backgroundWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:layout_marginTop="@dimen/activity_margin_small">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minHeight="136dp"
+            android:background="@color/backgroundBlue"
+            android:padding="@dimen/activity_margin">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/list_item_image"
+                android:layout_height="@dimen/list_item_image"
+                android:layout_margin="@dimen/activity_margin_large"
+                app:srcCompat="@drawable/ic_go_pro" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/list_item_margin_small"
+            android:layout_marginBottom="@dimen/list_item_margin_small"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin_small"
+                    android:text="@string/go_pro_label"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/go_pro_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorSecondAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                android:text="@string/unlock_falcon_label"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonGoPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/go_pro_label"
+                android:theme="@style/AppTheme.ColoredButtonThird" />
+
+            <Button
+                android:id="@+id/buttonGPurchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/purchased_label"
+                android:theme="@style/AppTheme.ColoredButtonThird"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerGrey"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_margin_small"
+            android:text="@string/or_label"
+            android:background="?android:attr/colorBackground"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@color/backgroundWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:layout_marginTop="@dimen/activity_margin_small">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundBlue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_margin">
+
+            <ImageView
+                android:layout_width="@dimen/list_item_image"
+                android:layout_height="@dimen/list_item_image"
+                android:layout_marginLeft="@dimen/activity_margin_large"
+                android:layout_marginRight="@dimen/activity_margin_large"
+                app:srcCompat="@drawable/ic_no_ads" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <ImageView
+                android:layout_width="@dimen/list_item_image"
+                android:layout_height="@dimen/list_item_image"
+                android:layout_marginLeft="@dimen/activity_margin_large"
+                android:layout_marginRight="@dimen/activity_margin_large"
+                app:srcCompat="@drawable/ic_go_pro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin_small"
+                    android:text="@string/get_both_label"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/both_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorSecondAccent"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin_small"
+                android:text="@string/unlock_both_label"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/get_both_label"
+                android:theme="@style/AppTheme.ColoredButton" />
+
+            <Button
+                android:id="@+id/buttonBothPurchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/upgrade_buttons_min_width"
+                android:text="@string/purchased_label"
+                android:theme="@style/AppTheme.ColoredButtonThird"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

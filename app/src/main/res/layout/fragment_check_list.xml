@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.roosterr.CheckListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="56dp"
+        android:id="@+id/checklist_view">
+
+        <android.support.v7.widget.RecyclerView
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:id="@+id/checklist"
+            android:nestedScrollingEnabled="true"
+            android:background="@color/backgroundWhite"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            app:layoutManager="LinearLayoutManager"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_items_yet_label"
+            android:visibility="gone"
+            android:padding="@dimen/activity_margin_small" />
+
+        <RelativeLayout
+            android:id="@+id/button_add_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checklist" >
+
+            <ImageButton
+                android:id="@+id/button_add_item"
+                app:srcCompat="@drawable/ic_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_alignParentRight="true"
+                android:minWidth="24dp" />
+
+            <EditText
+                android:hint="@string/type_new_item_label"
+                android:visibility="invisible"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:id="@+id/edit_new_text"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+            <Button
+                android:visibility="invisible"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:text="@string/save"
+                android:layout_alignParentTop="true"
+                android:padding="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/add_new_item_button"
+                android:gravity="center"
+                android:minWidth="48dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:id="@+id/button_add_to_checklist"
+        android:text="@string/add_items_sms_label"/>
+</RelativeLayout>

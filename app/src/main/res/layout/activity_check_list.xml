@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:fitsSystemWindows="true"
+    android:background="@color/backgroundGrey"
+    tools:context="com.roosterr.CheckListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/backgroundWhite"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <TextView
+                android:id="@+id/centered_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/title_label"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fitsSystemWindows="true"
+    android:background="@color/backgroundGrey"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/backgroundWhite"
+
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:id="@+id/name_text"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_centerHorizontal="true"
+            tools:text="Title" />
+
+        <ImageButton
+            android:id="@+id/button_edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name_text"
+            android:layout_toEndOf="@id/name_text"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            app:srcCompat="@drawable/ic_create_dark" />
+
+        <EditText
+            android:visibility="invisible"
+            android:id="@+id/name_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/group_name"
+            android:inputType="text" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/button_save_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/save"
+            android:layout_toRightOf="@id/name_edit_text"
+            android:layout_toEndOf="@id/name_edit_text"
+            android:textColor="?attr/colorAccent" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerGrey"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.NavigationView
+                app:elevation="0dp"
+                app:itemBackground="@drawable/nav_item_divider"
+                android:background="@drawable/nav_item_background"
+                app:itemTextColor="@drawable/nav_item_text"
+                android:id="@+id/tabs2"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+
+            <ImageButton
+                android:id="@+id/button_add_list"
+                app:srcCompat="@drawable/ic_add"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:minWidth="0dp"/>
+        </LinearLayout>
+
+        <com.roosterr.ui.NonSwipeableViewPager
+            android:background="@color/backgroundWhite"
+            android:id="@+id/container"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+</LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>

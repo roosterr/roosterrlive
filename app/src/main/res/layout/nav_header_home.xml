@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:layout_marginTop="@dimen/activity_margin_large"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:id="@+id/imageView"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/ic_logo"
+        android:layout_width="72dp"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin_small">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upgrade_premium_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_margin_small">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_margin="@dimen/activity_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_no_ads"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_ads_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_margin="@dimen/activity_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_go_pro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_pro_label" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/upgrade"
+        style="@style/AppTheme.ColoredButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrade_label"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerGrey"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

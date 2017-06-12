@@ -1,0 +1,459 @@
+<resources>
+    <string name="app_name">roosterr</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="good_morning">Доброе утро!</string>
+    <string name="send_to">Поделиться с друзьями</string>
+    <string name="group_name">Название группы</string>
+    <string name="share_title">Поделиться с друзьями</string>
+    <string name="title_activity_edit">Редактировать</string>
+    <string name="title_activity_file">Искать изображение</string>
+    <string name="save">Сохранить</string>
+    <string name="day">Установленные напоминания</string>
+    <string name="title_activity_group_image">Выбрать изображение</string>
+    <string name="type_contact_name_or_phone_number">Введите имя или номер телефона</string>
+    <string name="tip_this_group_has_no_members">Подсказка: Вы никого не добавили в эту группу</string>
+    <string name="tip_tap_to_delete">Подсказка: Нажмите на имя для удаления контакта</string>
+    <string name="allow_contacts">Разрешите доступ к контактам для добавления новых людей</string>
+    <string name="title_activity_about">О нас</string>
+    <string name="about_quote">\"Успех каждого человека \n обеспечен отличным приложением для напоминаний\"</string>
+    <string name="about_message">Для людей, имеющих проблемы с \n памятью, напоминаем с помощью</string>
+    <string name="about_header_1">Простое, понятное и практичное приложение</string>
+    <string name="about_header_2">для</string>
+    <string name="about_header_3">списков задач и напоминаний</string>
+    <string name="about_version_code">Версия 2.0</string>
+    <string name="about_help_faqs"><![CDATA[Помощь и FAQ]]></string>
+
+    <string-array name="type">
+        <item>@string/days_label</item>
+        <item>@string/weeks_label</item>
+        <item>@string/months_label</item>
+        <item>@string/years_label</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_upgrade">ПРЕМИУМ возможности</string>
+    <string name="title_activity_feedback">Оставить отзыв</string>
+    <string name="dialog_rate">Если это приложение полезно для Вас, пожалуйста, оцените его в Google Play</string>
+    <string name="title_activity_reminder_set">Напоминание сохранено</string>
+    <string name="title_activity_falcon">Возможности режима «Соколиный глаз»</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="activity_title_create">Создать напоминание</string>
+    <string name="upgrade_prompt">Просматривайте все будущие напоминания в хронологическом порядке. Это очень удобно. Для разблокировки режима «Соколиный глаз» необходима ВЕРСИЯ ПРО</string>
+    <string name="dialog_alarm_title">Выбрать мелодию будильника</string>
+    <string name="done">Готово</string>
+    <string name="close">Закрыть</string>
+    <string name="title_activity_check_list">Добавить список задач в SMS</string>
+    <string name="dialog_new_list_hint">Введите новое название списка задач</string>
+    <string name="type_sms_message_text">Введите текст SMS сообщения</string>
+    <string name="title_activity_backup">Восстановление данных</string>
+    <string name="title_activity_sent_reminders">Напоминания</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="no_reminders_sent_yet">Отправленные напоминания отсутствуют</string>
+    <string name="delete_all_sent_reminders">Удалить все отправленные напоминания?</string>
+    <string name="cancel">Отмена</string>
+    <string name="nothing_to_delete">Пусто</string>
+    <string name="delete_group">Удалить группу и напоминания в ней?</string>
+    <string name="delete">Удалить</string>
+    <string name="group_delete_success">Группа была успешно удалена</string>
+    <string name="title_activity_login">Войти</string>
+    <string name="content_description_app_loading_image">App loading image</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Пароль (опционально)</string>
+    <string name="action_sign_in">Войти или зарегистрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="error_invalid_email">Неверный адрес E-Mail</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="advertisement">Реклама</string>
+    <string name="appinstall_imagedescription">Скриншот</string>
+    <string name="permission_rationale">Необходимо разрешение на доступ к контактам для отправки E-Mail сообщений</string>
+    <string name="reminder_text_demo">Пора заказывать торт на день рождения жены</string>
+    <string name="backup_upgrade_text">Копируйте и восстанавливайте напоминания. \n \n Для открытия возможности резервного копирования и восстановления данных необходима ВЕРСИЯ ПРО</string>
+    <string name="authentication_success">Успешная аутентификация </string>
+    <string name="design_label">Разработано</string>
+    <string name="in_label">В</string>
+    <string name="country_label">Флорида, США</string>
+    <string name="loading_label">Загрузка………</string>
+    <string name="eve_label">Добрый вечер</string>
+    <string name="aftr_label">Добрый день</string>
+    <string name="morn_label">Доброе утро</string>
+    <string name="create_label">Создать</string>
+    <string name="purchased_label">КУПЛЕНО</string>
+    <string name="upgrade_label">ОБНОВИТЬ</string>
+    <string name="ratenow_label">Оценить</string>
+    <string name="group_created_label">Создана группа </string>
+    <string name="fetch_group_label">Загрузка групп………</string>
+    <string name="fetch_msg_label">Загрузка сообщений………</string>
+    <string name="fetch_cat_label">Загрузка категорий………</string>
+    <string name="fetch_cat_item_label">Загрузка элементов категорий………</string>
+    <string name="market_app_err_label"> unable to find market app</string>
+    <string name="yes_label">Да</string>
+    <string name="no_label">Нет</string>
+    <string name="exit_label">Хотите выйти?</string>
+    <string name="like_app_label">Оценить это приложение</string>
+    <string name="upgrade_premium_label">Получите ПРЕМИУМ ВЕРСИЮ!</string>
+    <string name="no_ads_label">БЕЗ РЕКЛАМЫ</string>
+    <string name="go_pro_label">ВЕРСИЯ ПРО</string>
+    <string name="iab_err_label">Проблема с осуществлением покупок в приложении: </string>
+    <string name="iab_err_err_2">Ошибка запроса данных. Осуществляется другая операция синхронизации</string>
+    <string name="iab_err_inv">Ошибка запроса данных: </string>
+    <string name="iab_err_purchase">Оплата не удалась. Ошибка аутентификации</string>
+    <string name="iab_thank_no_ads">Благодарим за обновление до версии БЕЗ РЕКЛАМЫ!</string>
+    <string name="iab_thank_go_pro">Благодарим за обновление до ВЕРСИИ ПРО!</string>
+    <string name="iab_thank_both">Благодарим за обновление до ПРЕМИУМ ВЕРСИИ!</string>
+    <string name="err_label">Ошибка: </string>
+    <string name="ok_label">OK</string>
+    <string name="remove_ads_label">Отключить рекламу</string>
+    <string name="unlock_falcon_label">«Соколиный глаз», премиум изображения и восстановление данных</string>
+    <string name="enjoy_label">Наслаждайтесь отсутствием рекламы</string>
+    <string name="or_label">ИЛИ</string>
+    <string name="unlock_both_label">Без рекламы, премиум изображения, «Соколиный глаз» и восстановление данных</string>
+    <string name="get_both_label">ПРЕМИУМ</string>
+    <string name="upgrade_to_pro_label">Обновить до ВЕРСИИ ПРО</string>
+    <string name="backup_label">Резервное копирование</string>
+    <string name="restore_label">Восстановление</string>
+    <string name="restore_file_label">Файл для восстановления должен храниться в памяти телефона</string>
+    <string name="backup_file_label">Копия данных сохранена в папке Загрузки. Имя файла: RemindKing.DB</string>
+    <string name="email_backup_label">Отправить файл с резервными данными на E-Mail</string>
+    <string name="backup_alert_label">Пожалуйста, выберите файл в формате .DB</string>
+    <string name="backup_restore_success_label">Восстановление резервных данных прошло успешно</string>
+    <string name="checklist_default_name">Новый список задач</string>
+    <string name="no_task_label">No task title entered.</string>
+    <string name="title_label">Title</string>
+    <string name="edit_add_group_label">Сначала, добавьте контакты в группу</string>
+    <string name="edit_reminder_enabled_label">Напоминание активировано</string>
+    <string name="edit_reminder_disabled_label">Напоминание отключено</string>
+    <string name="copy_reminder_label">Копировать напоминание в группу</string>
+    <string name="select_all_label">Выбрать все</string>
+    <string name="delete_reminder_label">Удалить напоминание?</string>
+    <string name="scheduled_reminder_label">Установленные напоминания</string>
+    <string name="active_label">Активные</string>
+    <string name="falcon_view_label">Соколиный глаз</string>
+    <string name="all_reminders_label">Все напоминания</string>
+    <string name="meeting_reminders_label">Напоминания о встрече</string>
+    <string name="todo_reminders_label">Напоминания о задачах</string>
+    <string name="bill_pay_reminders">Напоминания об оплате счета</string>
+    <string name="birthday_reminders_label">Напоминания о дне рождения</string>
+    <string name="anniversary_reminders_label">Напоминания о годовщине</string>
+    <string name="today_label">Сегодня</string>
+    <string name="next_7_label">Следующие 7 дней</string>
+    <string name="upcoming_label">Будущие</string>
+    <string name="all_label">Все</string>
+    <string name="meeting_label">Встреча</string>
+    <string name="todo_label">Задача</string>
+    <string name="bill_pay_label">Оплата счета</string>
+    <string name="birthday_label">День рождения</string>
+    <string name="anniversary_label">Годовщина</string>
+    <string name="feedback_email_label">Отзыв от пользователя получен</string>
+    <string name="send_feedback_label">Отправить отзыв</string>
+    <string name="type_feedback_question_label">Введите свой отзыв или вопрос</string>
+    <string name="email_label">Укажите адрес E-Mail</string>
+    <string name="alarm_label">Будильник</string>
+    <string name="call_reminder_label">Звонок</string>
+    <string name="tap_reminder_label">Нажмите, чтобы запустить RemindKing</string>
+    <string name="reminder_notification_label">В следующие 7 дней у Вас нет напоминаний. Создайте напоминание прямо сейчас</string>
+    <string name="reminder_prefix_label">У Вас </string>
+    <string name="reminder_append_label"> напоминаний в следующие 7 дней</string>
+    <string name="sms_scheduled_label">Отправка SMS запланирована</string>
+    <string name="alarm_scheduled_label">Будильник установлен</string>
+    <string name="call_scheduled_label">Звонок запланирован</string>
+    <string name="select_free_label">Бесплатное изображение ($0.00)</string>
+    <string name="item_label">задача</string>
+    <string name="browse_label">Искать</string>
+    <string name="premium_image_label">Премиум изображение</string>
+    <string name="backup_restore_label">Копирование / Восстановление</string>
+    <string name="share_label">Поделиться</string>
+    <string name="rate_this_label">Оценить приложение</string>
+    <string name="about_help_label">О приложении и помощь</string>
+    <string name="checklist_label">Список задач</string>
+    <string name="schedule_date_label">Установить дату</string>
+    <string name="schedule_time_label">Установить время</string>
+    <string name="select_date_label">Выбрать дату</string>
+    <string name="select_time_label">Выбрать время</string>
+    <string name="repitition_label">Повторение</string>
+    <string name="never_repeat_label">Не повторять</string>
+    <string name="optional_call_reminder_hint_label">(Опционально) Укажите детали звонка</string>
+    <string name="alarm_hint_label">По какой причине будильник</string>
+    <string name="sms_hint_label">Введите текст SMS</string>
+    <string name="alarm_tune_label">Мелодия будильника</string>
+    <string name="scheduled_sms_text">Запланированное SMS</string>
+    <string name="every_day_label">Каждый день</string>
+    <string name="every_week_label">Каждая неделя</string>
+    <string name="mon_fri_label">Понедельник-Пятница</string>
+    <string name="sat_sun_label">Суббота-Воскресенье</string>
+    <string name="every_month_label">Каждый месяц</string>
+    <string name="every_year_label">Каждый год</string>
+    <string name="custom_label">Ручная настройка</string>
+    <string name="repeat_every_label">Повторять каждые</string>
+    <string name="days_label">Дни</string>
+    <string name="weeks_label">Недели</string>
+    <string name="months_label">Месяцы</string>
+    <string name="years_label">Года</string>
+    <string name="no_items_selected_label">Задачи не были выбраны</string>
+    <string name="alarm_clock_label">Будильник</string>
+    <string name="gong_label">Гонг</string>
+    <string name="tingsha_label">Тибетские колокольчики</string>
+    <string name="sms_label">SMS</string>
+    <string name="call_label">Звонок</string>
+    <string name="base_64_part_initial">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtzNVUUuvoqJUgZCKstZT1IiUvdrgiacNbgIqED2IjyUukVpJSstW+mIoAFPFHQ5kdzyPHbQKtvQHKqeECBS4DZ2pR3d/</string>
+    <string name="base_64_part_last">VnqmPT7k6jzKiTvQHxS83xzyYl8Y5Y38de5xEPnWkWIBYuyoraQJ3h8K4rfmkS4pS+nQALyd07pHdFKBgQUqnHTy8GZphPPL+SIjNoTDexgswe+QqjsEZaCiDdNfOkIGA4RkgNXM/Vat8SzmWp48uQIDAQAB</string>
+    <string name="base_64_part_middle">IIAyFG1/oeqKENNeXHhXjucu6Ykgw70ycyyiegQ+QGpgUO9unZsh6YqDa7yYV1VO46ximhW6SGq46bb16QES0P6cIAHnkR57cXm/</string>
+    <string name="twitter_key">umqVdNp559amgyv5UtJYMQrzk</string>
+    <string name="twitter_secret">yesgvVI9LnbsUsFpImxrvt0AjLMKcQAEV6bmnaapdTJXW4Fz0n</string>
+    <string name="good_label">Хорошо</string>
+    <string name="add_items_sms_label">Добавить задачи в SMS</string>
+    <string name="type_new_item_label">Добавить новую задачу</string>
+    <string name="no_items_yet_label">Задач нет</string>
+    <string name="all_message_del_label">Все сообщения удалены</string>
+    <string name="group_creating_label">Создание группы</string>
+    <string name="group_del_label">Удаление группы</string>
+    <string name="message_del_label">Сообщение удалено</string>
+    <string name="dismiss_call_label">Пожалуйста, проведите для отключения или звонка</string>
+    <string name="dismiss_label">Отключить</string>
+    <string name="slide_dismiss_label">Пожалуйста, проведите для отключения</string>
+    <string name="vibrate_label">Vibrate</string>
+    <string name="reminder_label">Reminders:: Today {0}, Next 7 days {1}</string>
+</resources>

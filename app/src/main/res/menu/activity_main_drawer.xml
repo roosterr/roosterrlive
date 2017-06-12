@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/falcon_view_label"
+        android:icon="@drawable/ic_falcon_icon_2"
+        android:id="@+id/nav_falcon"/>
+
+    <item android:title="@string/backup_restore_label"
+        android:icon="@drawable/ic_cloud_download"
+        android:id="@+id/nav_backup"/>
+
+    <group android:id="@+id/share_rate">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share_label" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate"
+            android:title="@string/rate_this_label" />
+    </group>
+
+    <group android:id="@+id/support">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/about_help_label" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="@string/title_activity_feedback" />
+        <item
+            android:checkable="false"
+            android:title="" />
+    </group>
+</menu>

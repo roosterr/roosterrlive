@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.roosterr.FeedbackActivity"
+    tools:showIn="@layout/activity_feedback"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <EditText
+        android:id="@+id/feedback_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_label"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/feedback_message"
+        android:hint="@string/type_feedback_question_label"
+        android:gravity="top"
+        android:background="@drawable/edittextbox"
+        android:padding="@dimen/activity_margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_feedback_label"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+</LinearLayout>

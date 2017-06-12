@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_marginTop="@dimen/activity_margin_large"
+        android:layout_marginBottom="@dimen/activity_margin_small"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        app:srcCompat="@drawable/ic_logo"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_wordmark"/>
+
+    <TextView
+        android:text="@string/about_version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin"/>
+    <TextView
+        android:text="@string/about_header_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/about_header_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/about_header_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_margin_large"
+        android:layout_marginBottom="@dimen/activity_margin_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:text="@string/design_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+        <ImageView
+            app:srcCompat="@drawable/ic_flip_flops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_label"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/country_label"
+                android:layout_marginRight="@dimen/activity_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                app:srcCompat="@drawable/ic_beach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_margin_large"
+        android:layout_marginBottom="@dimen/activity_margin_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:text="Designed With"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+        <ImageView
+            app:srcCompat="@drawable/ic_flip_flops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN"
+            android:layout_marginBottom="@dimen/list_item_small_padding"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Florida U.S."
+                android:layout_marginRight="@dimen/activity_margin_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                app:srcCompat="@drawable/ic_beach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:text="@string/about_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/activity_margin_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="@dimen/activity_margin_small"
+                app:srcCompat="@drawable/ic_hand_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Scheduled SMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="@dimen/activity_margin_small"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_hand_right"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Call Reminders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="@dimen/activity_margin_small"
+                app:srcCompat="@drawable/ic_hand_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    -->
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:id="@+id/help_faq"
+        android:text="@string/about_help_faqs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

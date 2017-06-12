@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/AppTheme.AlertDialogFullscreen"
+    android:layout_margin="@dimen/activity_margin_large"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin_large"
+    android:gravity="center" >
+
+    <ImageView
+        android:layout_marginTop="@dimen/fab_margin_bottombar"
+        app:srcCompat="@drawable/ic_happy"
+        android:layout_width="144dp"
+        android:tint="@color/colorSecondAccent"
+        android:layout_height="250dp"
+        android:layout_margin="@dimen/activity_margin_small"/>
+
+    <TextView
+        android:id="@+id/done_message"
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorSecondAccent"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="@dimen/fab_margin_bottombar" />
+</LinearLayout>
